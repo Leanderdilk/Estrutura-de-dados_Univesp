@@ -5,22 +5,21 @@ typedef struct
 {
     int peso; //peso em quilogramas
     int altura; // altura em centimetros
-    /* data */
 } PesoAltura;
 
-int principal () {
-    intx ;
+int main () {
+    int x;
     PesoAltura pessoa1;
-    pessoa1. peso = 80 ;
-    pessoa1. altura = 185 ;
+    pessoa1.peso = 80;
+    pessoa1.altura = 185;
 
-    printf (" Peso: %i , Altura %i . " , pessoal. peso , pessoa1. altura );
-    if (pessoa1. altura >alturaMaxima) {
-        printf (" Altura acima da maxima. \n ");
+    printf("Peso: %i, Altura %i. ", pessoal.peso, pessoa1.altura);
+    if (pessoa1.altura>alturaMaxima) {
+        printf ("Altura acima da maxima.\n");
     }
-    else printf ( "Altura abaixo da maxima. \n ");
+    else printf ("Altura abaixo da maxima.\n");
 
-    printf ( "%p %p %p \n " , &x, &(pessoa1. altura ));
+    printf ("%p %p %p\n", &x, &(pessoa1.altura));
 
     retorna 0;
     }
